@@ -15,8 +15,8 @@ test.describe('Login Page', () => {
   test('should redirect to inventory on valid login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     await loginPage.login({
-    username: process.env.TEST_USERNAME ?? 'standard_user',
-  password: process.env.TEST_PASSWORD ?? 'secret_sauce'
+      username: process.env.TEST_USERNAME ?? 'standard_user',
+      password: process.env.TEST_PASSWORD ?? 'secret_sauce'
     });
     await expect(page).toHaveURL(/inventory/);
   });
