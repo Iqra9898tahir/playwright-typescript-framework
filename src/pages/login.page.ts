@@ -16,6 +16,7 @@ export class LoginPage extends BasePage{
 
 async goTo(): Promise<void> {
   await this.page.goto('/');
+
 }
 
   async login(user:User): Promise<void> {

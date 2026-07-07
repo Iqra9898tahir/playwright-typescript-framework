@@ -14,7 +14,7 @@ export default defineConfig({
     ['list'],
   ],
   use: {
-    headless: false,
+    headless: process.env.CI ? true : false,  // ✅ fixed
     baseURL: process.env.BASE_URL ?? 'https://www.saucedemo.com',
     trace: 'on-first-retry',
     actionTimeout: 10000,
