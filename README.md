@@ -68,3 +68,4 @@ Tests run automatically on every push via GitHub Actions.
 ## 👩‍💻 Author
 Iqra Tahir — QA Engineer transitioning to SDET
 GitHub: @Iqra9898tahir
+Playwright JS/TS
