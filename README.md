@@ -3,8 +3,7 @@
 ![Playwright Tests](https://github.com/Iqra9898tahir/playwright-typescript-framework/actions/workflows/playwright.yml/badge.svg)
 
 ## 📋 Overview
-A production-ready end-to-end test automation framework built with Playwright and TypeScript, following best practices.
-
+Reusable end-to-end test automation framework built with Playwright and TypeScript, following Page Object Model and automation best practices.
 ## 🛠️ Tech Stack
 - **Playwright** — E2E testing framework
 - **TypeScript** — Type-safe JavaScript
